@@ -347,7 +347,7 @@ namespace RoyalArmouryFix
 
                         foreach (ItemObject item in ItemObject.All)
                         {
-                            if (!item.IsCraftedWeapon || Settings.Instance.bShowCraftedItems)
+                            if (!item.IsCraftedByPlayer || Settings.Instance.bShowCraftedItems)
                             {
                                 if ((item.Culture == Settlement.CurrentSettlement.Culture ||
                                      !Settings.Instance.bFilterByCulture ||

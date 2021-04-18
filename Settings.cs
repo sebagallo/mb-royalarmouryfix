@@ -239,9 +239,9 @@ namespace RoyalArmouryFix
         public bool bUnlimitedSelectionIfFree { get; set; } = false;
 
         [XmlElement]
-        [SettingProperty("Include Crafted Weapons (DO NOT UNCHECK)", "FAULTY FUNCTION BY TW (ItemObject.IsCraftedWeapon), IT WILL FILTER OUT ALL WEAPONS IF UNCHECKED. All weapons are considered crafted, so no way to determine player crafted ones currently.")]
+        [SettingProperty("Include Player Crafted Weapons.")]
         [SettingPropertyGroup("Filtering The Armory's Item Selection")]
-        public bool bShowCraftedItems { get; set; } = true;
+        public bool bShowCraftedItems { get; set; } = false;
 
         [XmlElement]
         [SettingProperty("Town prosperity affects stock variety", "The more prosperous the Town is, the more varied items will spawn and vice-versa.")]

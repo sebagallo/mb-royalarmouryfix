@@ -14,7 +14,7 @@ namespace RoyalArmouryFix
         protected override void OnBeforeInitialModuleScreenSetAsRoot()
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
-            InformationManager.DisplayMessage(new InformationMessage("Royal Armoury [v3.0.1] Compiled for 1.5.9"));
+            InformationManager.DisplayMessage(new InformationMessage("Royal Armoury [v3.0.2] Compiled for 1.5.9"));
         }
 
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
